@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@anim/dishes_selected_remark_stroke_bg"
+    android:textColor="@color/dishes_selected_item_title_textcolor"
+    android:textSize="@dimen/text_size_14"
+    android:gravity="center"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip"
+    android:paddingTop="2dip"
+    android:paddingBottom="2dip" >
+
+</TextView>

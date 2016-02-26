@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <TextView 
+    android:id="@+id/childdishesinfo_name"
+    android:layout_width="wrap_content"
+    android:layout_height="40dip"
+    android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+    android:gravity="center"
+    android:textSize="@dimen/text_size_16"
+    android:layout_marginTop="2dip"
+    android:visibility="gone"/>
+
+    <com.asiainfo.orderdishes.ui.widget.FlowLayoutMargin
+        android:id="@+id/childdishesinfo_flowLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+    </com.asiainfo.orderdishes.ui.widget.FlowLayoutMargin>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:id="@+id/dish_selected_left"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="40"
+        android:orientation="vertical"
+        android:background="#50000000" >
+
+        <TextView
+            android:id="@+id/dish_selected_top_left"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:gravity="center_vertical|left"
+            android:textColor="@color/white"
+            android:textScaleX="1.1"
+            android:textSize="@dimen/text_size_18"
+            android:text="已下单    （合计；  12个 ￥210.00）"
+            android:paddingLeft="40dip"
+            android:background="@color/dishes_selected_submit_title_textcolor"/>
+
+        <LinearLayout
+            android:id="@+id/dish__selected_middle_left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dishes_selected_submit_middle_textcolor"
+            android:orientation="vertical" >
+            <com.asiainfo.orderdishes.ui.widget.PinnedSectionListView
+                android:id="@+id/submit_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:choiceMode="singleChoice"
+                android:divider="@null"
+                android:drawSelectorOnTop="true"
+                android:focusable="false"
+                android:gravity="center"
+                android:scrollbars="none"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="40dip"
+                android:layout_marginTop="20dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="60"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/dish_selected_top_right"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:background="@color/dish_selected_top_left_bg" >
+
+            <TextView
+                android:id="@+id/dish_selected_top_right_num"
+                android:layout_width="200dip"
+                android:layout_height="60dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dip"
+                android:gravity="center_vertical|left"
+                android:text="新选 8 道菜"
+                android:textColor="@color/white"
+                android:textScaleX="1.1"
+                android:textSize="@dimen/text_size_18" />
+
+            <ImageView
+                android:id="@+id/dish_selected_top_right_close"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/order_detail_del" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dish_detail_bg" >
+
+            <include layout="@layout/dish_selected_layout" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

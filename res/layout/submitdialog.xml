@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="600dip"
+    android:layout_height="320dip"
+    android:background="@color/submitdialog_bg" >
+
+    <ImageButton
+        android:id="@+id/submitdialog_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="22dip"
+        android:background="@drawable/dd_close" />
+
+    <RelativeLayout
+        android:id="@+id/sumitdialog_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dip"
+        android:layout_marginTop="60dip" >
+
+        <ImageView
+            android:id="@+id/submitdialog_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/submitdialog_icon" />
+
+        <TextView
+            android:id="@+id/submitdialog_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="75dip"
+            android:layout_toRightOf="@+id/submitdialog_icon"
+            android:lineSpacingExtra="5dip"
+            android:text="@string/submit_dialog_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_18" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/submit_notity_radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_above="@+id/submitdialog_btn_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dip"
+        android:orientation="horizontal"
+        android:visibility="gone">
+       <RadioButton
+            android:id="@+id/submit_notity_wait"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:layout_marginLeft="50dip"
+            android:checked="true"
+            android:text="稍候制作"
+            android:textColor="#000000" />
+        <RadioButton
+            android:id="@+id/submit_notity_now"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:checked="false"
+            android:text="立即制作"
+            android:textColor="#000000" />
+
+        
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/submitdialog_btn_group"
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sumitdialog_center"
+        android:layout_marginRight="95dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/submitdialog_negative"
+            android:layout_width="105dip"
+            android:layout_height="match_parent"
+            android:background="@anim/submitdialog_no_border"
+            android:text="再看看"
+            android:textColor="@color/submitdialog_no_text"
+            android:textSize="@dimen/text_size_20" />
+
+        <Button
+            android:id="@+id/submitdialog_positive"
+            android:layout_width="105dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dip"
+            android:background="@anim/submitdialog_yes_border"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_20" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_alignParentBottom="true"
+        android:background="@anim/bottom_gradient_bg" />
+
+    <View
+        android:layout_width="3dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@anim/bottom_gradient_bg" />
+
+</RelativeLayout>

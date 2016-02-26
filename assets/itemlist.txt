@@ -1,0 +1,103 @@
+                {
+                    "compId": "01",
+                    "dishesType": "1060",
+                    "dishesId": 10001,
+                    "dishesTypeCode": "01",
+                    "dishesPrice": 1500,
+                    "isComp": 0,
+                    "dishesName": "炖牛肉",
+                    "dishesUrl": "http://115.29.35.199:17890/material_img/images/upload/20000080/tiaoyucishen.jpg",
+                    "memberPrice": 1000,
+                    "dishesCode": "DNR",
+                    "exportId": 1,
+                    "dishesItemTypelist": [
+                        {
+                            "itemType": "001",
+                            "itemTypeName": "口味",
+                            "itemlist": [
+                                {
+                                    "itemId": 200007,
+                                    "itemName": "咖喱",
+                                    "price": 2
+                                },
+                                {
+                                    "itemId": 200001,
+                                    "itemName": "辣",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 200002,
+                                    "itemName": "甜",
+                                    "price": 2
+                                },
+                                {
+                                    "itemId": 200003,
+                                    "itemName": "苦",
+                                    "price": 2
+                                },
+                                {
+                                    "itemId": 200004,
+                                    "itemName": "酸",
+                                    "price": 2
+                                },
+                                {
+                                    "itemId": 200005,
+                                    "itemName": "清淡",
+                                    "price": 2
+                                },
+                                {
+                                    "itemId": 200006,
+                                    "itemName": "咸鲜",
+                                    "price": 2
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "002",
+                            "itemTypeName": "做法",
+                            "itemlist": [
+                                {
+                                    "itemId": 300001,
+                                    "itemName": "红烧",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 300002,
+                                    "itemName": "清蒸",
+                                    "price": 5
+                                },
+                                {
+                                    "itemId": 300003,
+                                    "itemName": "油炸",
+                                    "price": 5
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "003",
+                            "itemTypeName": "牛排",
+                            "itemlist": [
+                                {
+                                    "itemId": 400001,
+                                    "itemName": "三分熟",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 400002,
+                                    "itemName": "五分熟",
+                                    "price": 5
+                                },
+                                {
+                                    "itemId": 400003,
+                                    "itemName": "七分熟",
+                                    "price": 5
+                                },
+                                {
+                                    "itemId": 400003,
+                                    "itemName": "全熟",
+                                    "price": 5
+                                }
+                            ]
+                        }
+                    ]
+                }

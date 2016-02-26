@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+    <drawable name="btn_tcolor_white">#ffffff</drawable>
+    <drawable name="btn_tcolor_white_">#70ffffff</drawable>  
+    <drawable name="btn_tcolor_orange">#DCAD5C</drawable>
+    <drawable name="btn_tcolor_orange_">#70DCAD5C</drawable>  
+    <drawable name="btn_tcolor_red">#f06f6f</drawable>
+    <drawable name="btn_tcolor_red_">#70f06f6f</drawable>
+    <drawable name="btn_tcolor_orange_deep">#F4A92A</drawable>
+    <drawable name="btn_tcolor_orange_slight">#D4AD6B</drawable>  
+    <drawable name="btn_tcolor_pink">#F16F6F</drawable>
+    <drawable name="cl_bg_dish_border_normal">#E5E1D4</drawable>
+    <drawable name="cl_bg_dish_border_normal_deep">#F4A92A</drawable>
+</resources> 

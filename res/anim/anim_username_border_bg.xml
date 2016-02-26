@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:oneshot="false">  
+    
+    <item android:drawable="@drawable/login_un1" android:duration="300"/>
+    <item android:drawable="@drawable/login_un3" android:duration="300"/>
+    <item android:drawable="@drawable/login_un5" android:duration="300"/>
+    <item android:drawable="@drawable/login_un7" android:duration="300"/>
+    <item android:drawable="@drawable/login_un9" android:duration="300"/>
+    <item android:drawable="@drawable/login_un11" android:duration="300"/>
+    <item android:drawable="@drawable/login_un13" android:duration="300"/>
+    <item android:drawable="@drawable/login_un15" android:duration="300"/>
+    <item android:drawable="@drawable/login_un17" android:duration="300"/>
+    <item android:drawable="@drawable/login_un19" android:duration="300"/>
+    
+</animation-list>

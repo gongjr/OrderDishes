@@ -1,0 +1,4 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_mask_dishe_img"
+    android:layout_width="110dip"
+    android:layout_height="70dip"/>

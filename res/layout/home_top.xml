@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dip"
+    android:background="@color/home_top_bg_title" >
+
+    <TextView
+        android:id="@+id/home_top_home_back"
+        android:layout_width="81dip"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/home_back" />
+
+    <TextView
+        android:id="@+id/home_top_setmeal"
+        android:layout_width="100dip"
+        android:layout_height="60dip"
+        android:layout_marginLeft="30dip"
+        android:layout_toRightOf="@+id/home_top_home_back"
+        android:background="@color/home_top_bg_title"
+        android:gravity="center"
+        android:text="商务套餐"
+        android:textColor="@color/home_top_title_text"
+        android:textScaleX="1.1"
+        android:textSize="@dimen/text_size_18"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/home_top_shopping_group"
+        android:layout_width="160dip"
+        android:layout_height="60dip"
+        android:layout_alignParentRight="true"
+        android:background="@color/home_top_shopping_bg"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="50dip"
+            android:layout_height="60dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dip" >
+
+            <ImageView
+                android:id="@+id/home_top_shopping_img_num"
+                android:layout_width="30dip"
+                android:layout_height="60dip"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/home_top_shopping_price"
+                android:layout_width="40dip"
+                android:layout_height="60dip" 
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/home_top_shopping_tip"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:background="@color/home_top_shopping_bg"
+            android:gravity="center_vertical|left"
+            android:text="0元"
+            android:textColor="@color/white"
+            android:textScaleX="1.1"
+            android:textSize="@dimen/text_size_18"
+            android:layout_marginRight="0dip"
+            android:layout_marginLeft="10dip" />
+
+        <TextView
+            android:id="@+id/home_top_shopping_tip_title"
+            android:layout_width="wrap_content"
+            android:layout_height="60dip"
+            android:layout_marginRight="10dip"
+            android:background="@color/home_top_shopping_bg"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textScaleX="1.1"
+            android:textSize="@dimen/text_size_18" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_below="@+id/home_top_home_back"
+        android:background="#e5e1d5" />
+
+</RelativeLayout>

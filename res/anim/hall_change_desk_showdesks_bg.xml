@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" 
+          android:state_enabled="true"
+          android:drawable="@anim/hall_change_desk_showdesks_chk_s_lld">
+    </item>
+    
+    <item android:state_pressed="false" 
+          android:state_enabled="true"
+          android:drawable="@anim/hall_change_desk_showdesks_chk_lld">
+         <!--  <shape>
+              <solid android:color="#E00ff0"/>
+              <padding
+                android:left="2dip"
+                android:top="2dip"
+                android:right="2dip"
+                android:bottom="2dip" />
+          </shape>   -->
+    </item>
+
+</selector>

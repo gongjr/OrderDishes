@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/catagories_radio"
+    android:layout_width="wrap_content"
+    android:layout_height="65dip"
+    android:background="@anim/catagories_rb_selector"
+    android:button="@null"
+    android:padding="5dip"
+    android:textColor="#e7cda1"
+    android:textScaleX="1.1">
+
+</RadioButton>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@color/order_settle_top_bg"  >
+
+        <TextView
+            android:id="@+id/order_diskid"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="1号桌订单"
+            android:textSize="@dimen/text_size_24"
+            android:background="@color/order_settle_top_bg"   />
+        
+        <ImageView 
+            android:id="@+id/order_state_notity_img"
+            android:layout_width="300dip"
+            android:layout_height="40dip"
+            android:layout_centerInParent="true"
+            android:background="@drawable/order_detail_top_state_notify_yes"/>
+
+        <Button
+            android:id="@+id/order_back"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@anim/orderdetaili_return_hallborder_btn"
+            android:gravity="center"
+            android:layout_marginRight="40dip"
+            android:text="返回大厅" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5" 
+        android:background="@color/white">
+        <com.asiainfo.orderdishes.ui.widget.PinnedSectionListView
+            android:id="@+id/dishes_list"
+            android:layout_width="match_parent"
+            android:layout_height="400dip"
+            android:choiceMode="singleChoice"
+            android:drawSelectorOnTop="true"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="50dip"
+            android:focusable="false"
+            android:gravity="center"
+            android:divider="@null"
+            android:scrollbars="none" />
+        
+        <TextView
+            android:id="@+id/dd_divline2"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/dishes_list"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:background="#CEC8B6"
+            android:gravity="center"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="50dip" />
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dd_divline2" 
+            android:layout_alignParentRight="true">
+            
+            <CheckBox
+            android:id="@+id/dishes_order_edit_error"
+            android:layout_width="80dip"
+            android:layout_height="30dip"
+            android:background="@anim/order_add_border_btn"
+            android:button="@null"
+            android:text="纠错编辑"
+            android:textColor="@color/submitdialog_no_text"
+            android:textSize="@dimen/text_size_16" 
+            android:gravity="center"
+            android:layout_toLeftOf="@+id/dishes_totalprice_name"
+            android:layout_marginTop="3dip"
+            android:layout_marginRight="10dip"/>
+
+            <TextView
+                  android:id="@+id/dishes_totalprice_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_toLeftOf="@+id/dishes_totalprice"
+                android:layout_marginTop="8dip"
+                android:gravity="center_vertical"
+                android:text="合计：￥ "
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/dishes_totalprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="0.0"
+                android:textSize="@dimen/text_size_24" 
+                android:textColor="#E1484A"
+                android:layout_marginRight="80dip"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="#ebebeb" >
+
+        <Button
+            android:id="@+id/order_add"
+            android:layout_width="120dip"
+            android:layout_height="60dip"
+            android:background="@anim/order_add_border_btn"
+            android:text="加菜"
+            android:textColor="@color/submitdialog_no_text"
+            android:textSize="@dimen/text_size_20" 
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginLeft="80dip"/>
+        
+         <Button
+            android:id="@+id/order_edit"
+            android:layout_width="120dip"
+            android:layout_height="60dip"
+            android:background="@anim/order_add_border_btn"
+            android:text="编辑"
+            android:textColor="@color/submitdialog_no_text"
+            android:textSize="@dimen/text_size_20" 
+            android:layout_toRightOf="@+id/order_add"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginLeft="20dip"/>
+
+        <Button
+            android:id="@+id/order_zhifu"
+            android:layout_width="120dip"
+            android:layout_height="60dip"
+            android:layout_marginRight="80dip"
+            android:background="@anim/order_zhifu_border_btn"
+            android:text="去支付"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_20"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+             />
+    </RelativeLayout>
+
+</LinearLayout>

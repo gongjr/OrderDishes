@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape>
+            <solid android:color="@color/home_top_bg_title" />
+        </shape>
+    </item>
+    <item android:top="60dip">
+        <shape>
+            <solid android:color="#e5e1d5" />
+        </shape>
+    </item>
+
+</layer-list>

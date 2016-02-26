@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="480dip"
+    android:layout_height="280dip"
+    android:background="@anim/bg_waitter_authencate" >
+
+    <ImageButton
+        android:id="@+id/people_dialog_close"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/dd_close" />
+
+    <EditText
+        android:id="@+id/people_number_edit"
+        android:layout_width="260dip"
+        android:layout_height="41dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dip"
+        android:background="@anim/waitter_author_bg_edittext"
+        android:hint="请输入就餐人数"
+        android:textColorHint="#979797"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/people_number_submit"
+        android:layout_width="106dip"
+        android:layout_height="40dip"
+        android:layout_below="@+id/people_number_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dip"
+        android:text="确 认"
+        android:background="@anim/waitter_authenticate_submit_bg"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

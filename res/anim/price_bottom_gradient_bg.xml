@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:Android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 按照排列顺序多层叠加,按写的顺序从底网上 -->
+    <!-- 距离上下左右的边距 -->
+    <item>
+
+        <!-- 矩形 -->
+        <shape Android:shape="rectangle" >
+
+            <!-- 实心背景梯度样式 -->
+            <gradient
+                Android:angle="270"
+                Android:endColor="#f8f5ec"
+                Android:startColor="#e7cda1" />
+            <!-- corners圆角半径大小 -->
+            <!-- solid实心背景色 -->
+            <!-- stroke边框   border -->
+        </shape>
+    </item>
+
+</layer-list>

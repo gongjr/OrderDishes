@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 公共颜色 -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="green_01">#40d2ae</color>
+
+    <!-- home_top_color /home页面头部颜色区 -->
+    <color name="home_top_title_text">#e7cda1</color>
+    <color name="home_top_bg_title">#564b4b</color>
+    <color name="home_top_shopping_bg">#392e2e</color>
+    <color name="home_dish_bg">#e5e1d5</color>
+    <color name="home_dish_item_bg">#f8f5ec</color>
+    <color name="home_dish_item_name_tv">#776b6c</color>
+    <!-- 菜品类型子项背景色 -->
+    <color name="delivery_catagorr_bg_s">#e1484a</color>
+    <color name="delivery_catagorr_bg_n">#3e3434</color>
+    <!-- 菜品详情 -->
+    <color name="dish_detail_name">#392e2e</color>
+    <color name="dish_detail_bg">#fcfaf3</color>
+    <color name="dish_detail_price_text">#e1484a</color>
+    <color name="translucent_background">#00000000</color>
+    <!-- 菜单详情中的+ ,- 符号边框颜色 -->
+    <color name="dd_count_borader">#fff0ff</color>
+
+    <!-- 点餐，选桌部分 -->
+    <color name="dish_item_member_price_text">#c4b190</color>
+    <color name="dish_item_price_text">#f26d6e</color>
+    <color name="dishes_lv_edit_btn">#e1910f</color>
+    <!-- 大厅选中的桌子颜色和上方动作按钮颜色 -->
+    <color name="hall_top_bg_title">#453B3B</color>
+    <!-- 大厅选中的桌子区域的背景色  -->
+    <color name="hall_mdl_i_selected">#B6A880</color>
+    <!-- 大厅的桌子区域的正常背景色  -->
+    <color name="hall_mdl_i_normal">#D5CAA5</color>
+    <!-- 大厅的桌子区域的正常文本色  -->
+    <color name="hall_mdl_text_normal">#968669</color>
+    <!-- 大厅桌子区域的边框色  -->
+    <color name="hall_mdl_border">#C1B695</color>
+    <!-- 大厅显示桌子的布局背景色  -->
+    <color name="hall_table_show_bg">#E5E1D5</color>
+    <!-- 未选中的桌子的文本颜色 -->
+    <color name="table_table_t_normal">#857A5C</color>
+    <!-- 桌子的边框颜色 -->
+    <color name="table_border_color">#8c7e73</color>
+    <color name="hall_selected_table_code_text">#ee716f</color>
+    <color name="hall_selected_table_notice_text">#867a5c</color>
+
+    <!-- 大厅背景色，未选中桌台背景色  -->
+    <color name="hall_layout_bg">#6d5f5f</color>
+    <!-- 大厅点菜按钮的一般背景颜色 -->
+    <color name="hall_take_order_bg_n">#f06f6f</color>
+    <!-- 大厅点菜按钮的点击背景颜色 -->
+    <color name="hall_take_order_bg_s">#70f06f6f</color>
+    <!-- 餐桌类型radio的一般颜色 -->
+    <color name="hall_tt_bg_n">#00FFFFFF</color>
+    <!-- 餐桌类型radio的选中颜色 -->
+    <color name="hall_tt_bg_s">#e1484a</color>
+    <color name="submitdialog_bg">#f8f5ec</color>
+    <color name="submitdialog_no_text">#e1910f</color>
+    <color name="submitdialog_no_border">#f5a623</color>
+    <color name="submitdialog_yes_bg">#f06f6f</color>
+    <color name="dish_selected_top_left_bg">#6d5f5f</color>
+    <color name="dish_selected_bg">#fcfaf3</color>
+    
+    <color name="order_settle_top_bg">#ebebeb</color>
+    <color name="order_settle_price_bg">#FFFBCF</color>
+    
+    <!-- 套餐  -->
+    <color name="cl_border_orange_slight">#D4AD6B</color>
+    <color name="cl_border_orange_deep">#F4A92A</color>
+    <color name="cl_bg_price">#706E6E76</color>
+    <color name="grey">#E2E3D6</color>
+    <color name="pink">#F16F6F</color>
+    <color name="cl_bg_dish_border_normal">#E5E1D4</color>
+    <color name="cl_bg_dish_selected_item">#F8F5EC</color>
+    <color name="cl_bg_dish_grey">#F8F8F8</color>
+    <color name="cl_border_grey">#E1E1D6</color>
+    
+    <color name="dishes_selected_item_title_bg">#efebdd</color>
+    <color name="dishes_selected_item_title_textcolor">#ca9701</color>
+    
+    
+     <color name="dishes_selected_submit_title_textcolor">#584b4b</color>
+      <color name="dishes_selected_submit_middle_textcolor">#e9e4d5</color>
+     <color name="translucent_background_50">#50000000</color>
+     
+      <color name="table_fresh_text_color">#f4a92a</color>
+    
+</resources>

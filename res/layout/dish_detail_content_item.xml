@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dishesdemo.MainActivity" >
+
+    <ImageButton
+        android:id="@+id/dd_close"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#00ffffff"
+        android:src="@drawable/dd_close"/>
+
+    <RelativeLayout
+        android:id="@+id/dd_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginRight="80dip" >
+
+        <TextView
+            android:id="@+id/dd_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:text="蜜汁猪排饭" 
+            android:textSize="20dip"/>
+
+        <TextView
+            android:id="@+id/dd_divline1"
+            android:layout_below="@+id/dd_name"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="15dip"
+            android:gravity="center"
+            android:background="#CEC8B6" />
+
+        <ImageView
+            android:id="@+id/dd_image"
+            android:layout_below="@+id/dd_divline1"
+            android:layout_width="match_parent"
+            android:layout_height="250dip"
+            android:scaleType="fitXY"
+            android:gravity="center"
+             />
+        
+        <LinearLayout
+            android:id="@+id/dd_consist_group" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/dd_image"
+            android:layout_marginTop="3dip"
+            >
+       
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/dd_divline2"
+            android:layout_below="@+id/dd_consist_group"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginBottom="10dip"
+            android:background="#CEC8B6"/>
+
+        <RelativeLayout
+            android:id="@+id/dd_buyinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/dd_divline2" >
+
+            <TextView
+                android:id="@+id/dd_priceflag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:gravity="center_horizontal"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="￥" 
+                android:textSize="18sp"
+                android:textColor="#E1484A"/>
+
+            <TextView
+                android:id="@+id/dd_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/dd_priceflag"
+                android:layout_centerVertical="true"
+                android:text="59"
+                android:textSize="32sp" 
+                android:textColor="#E1484A"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_dd_count"
+                android:layout_width="140dip"
+                android:layout_height="50dip"
+                android:layout_marginRight="5dip"
+                android:gravity="center_vertical"
+                android:layout_toLeftOf="@+id/dd_select"
+                android:layout_centerVertical="true"
+                >
+                <Button
+                    android:id="@+id/minus_btn"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:button="@null"
+                    android:background="@anim/dd_count_minus_selector"
+                    android:textSize="32sp" />
+               
+
+                <TextView
+                    android:id="@+id/count_input"
+                    android:layout_width="60dip"
+                    android:layout_height="40dip"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/minus_btn"
+                    android:focusable="false"
+                    android:text="1"
+                    android:background="@null"
+                    android:textSize="@dimen/text_size_20" />
+                <View android:layout_width="60dip"
+                    android:layout_height="1dip"
+                    android:background="#C4BEAD"
+                    android:layout_below="@+id/count_input"
+                    android:layout_toRightOf="@+id/minus_btn"
+                    />
+                <Button
+                    android:id="@+id/add_btn"
+                    android:layout_width="40dip"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/count_input"
+                    android:layout_height="40dip"
+                    android:gravity="center"
+                    android:button="@null"
+                    android:background="@anim/dd_count_adds_selector"
+                    android:textSize="32sp" />
+              
+            </RelativeLayout>
+
+            <CheckBox
+                android:id="@+id/dd_select"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:layout_alignParentRight="true" 
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:background="@anim/dd_select_selector"/>
+            
+            <Button
+                android:id="@+id/dd_submit"
+                android:layout_width="80dip"
+                android:layout_height="35dip"
+                android:layout_alignParentRight="true" 
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:text="加入菜单"
+                android:textSize="@dimen/text_size_16"
+                android:textColor="#FFFFFF"
+                android:background="@anim/hall_take_order_bg"
+                android:visibility="gone"
+                />
+            
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    <ScrollView 
+        android:id="@+id/remark_group"
+        android:orientation="vertical" 
+        android:layout_width="match_parent"
+        android:layout_height="180dip"
+        android:layout_alignParentBottom="true" 
+        android:layout_marginLeft="40dip"
+        android:layout_marginBottom="25dip"
+        android:layout_marginRight="80dip" >
+
+    <LinearLayout
+        android:id="@+id/item_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dish_detail_bg"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    </ScrollView>
+    
+    <Button
+            android:id="@+id/dishse_configure"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginBottom="0dip"
+            android:layout_marginTop="20dip"
+            android:background="#E1484A"
+            android:gravity="center"
+            android:text="配置套餐"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_alignParentBottom="true"  />
+</RelativeLayout>

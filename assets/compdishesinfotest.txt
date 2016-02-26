@@ -1,0 +1,526 @@
+{
+    "dishesName": "缤纷套餐",
+    "dishesId": 1000901,
+    "dishesPrice": 1000,
+    "dishesUrl": "image.jpg",
+    "dishesTypeName": "冷菜",
+    "dishesTypeCode": "02",
+    "remark": "缤纷套餐，会员大礼包!",
+    "dishesCode": "BFTC",
+    "isComp": "1",
+    "exportId": 1,
+    "merchantId": 20000080,
+    "compDishesTypeList": [
+        {
+            "compId": "01",
+            "dishesType": "1089",
+            "dishesTypeName": "色拉",
+            "maxSelect": 1,
+            "dishesCount": 3,
+            "dishesInfoList": [
+                {
+                    "compId": "01",
+                    "dishesType": "1089",
+                    "dishesId": 10001,
+                    "dishesTypeCode": "01",
+                    "dishesPrice": 15,
+                    "isComp": 0,
+                    "dishesName": "浓情鸡肉烔饭",
+                    "dishesUrl": "http://115.29.35.199:17890/material_img/images/upload/20000080/tiaoyucishen.jpg",
+                    "memberPrice": 10,
+                    "dishesCode": "DNR",
+                    "exportId": 1,
+                    "dishesItemTypelist": [
+                        {
+                            "itemType": "001",
+                            "itemTypeName": "口味",
+                            "itemlist": [
+                                {
+                                    "itemId": 200007,
+                                    "itemName": "咖喱",
+                                    "price": 2
+                                },
+                                {
+                                    "itemId": 200001,
+                                    "itemName": "辣",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 200002,
+                                    "itemName": "甜",
+                                    "price": 2
+                                },
+                                {
+                                    "itemId": 200003,
+                                    "itemName": "苦",
+                                    "price": 2
+                                },
+                                {
+                                    "itemId": 200004,
+                                    "itemName": "酸",
+                                    "price": 2
+                                },
+                                {
+                                    "itemId": 200005,
+                                    "itemName": "清淡",
+                                    "price": 2
+                                },
+                                {
+                                    "itemId": 200006,
+                                    "itemName": "咸鲜",
+                                    "price": 2
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "002",
+                            "itemTypeName": "做法",
+                            "itemlist": [
+                                {
+                                    "itemId": 300001,
+                                    "itemName": "红烧",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 300002,
+                                    "itemName": "清蒸",
+                                    "price": 5
+                                },
+                                {
+                                    "itemId": 300003,
+                                    "itemName": "油炸",
+                                    "price": 5
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "003",
+                            "itemTypeName": "牛排",
+                            "itemlist": [
+                                {
+                                    "itemId": 400001,
+                                    "itemName": "三分熟",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 400002,
+                                    "itemName": "五分熟",
+                                    "price": 5
+                                },
+                                {
+                                    "itemId": 400003,
+                                    "itemName": "七分熟",
+                                    "price": 5
+                                },
+                                {
+                                    "itemId": 400003,
+                                    "itemName": "全熟",
+                                    "price": 5
+                                },
+                                {
+                                    "itemId": 400004,
+                                    "itemName": "一分熟",
+                                    "price": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "compId": "01",
+                    "dishesType": "1089",
+                    "dishesId": 10002,
+                    "dishesTypeCode": "01",
+                    "dishesPrice": 15,
+                    "isComp": 0,
+                    "dishesName": "黑椒牛柳面",
+                    "dishesUrl": "http://115.29.35.199:17890/material_img/images/upload/20000080/10000884.jpg",
+                    "memberPrice": 10,
+                    "dishesCode": "JR",
+                    "exportId": 1,
+                    "dishesItemTypelist": [
+                        {
+                            "itemType": "001",
+                            "itemTypeName": "口味",
+                            "itemlist": [
+                                {
+                                    "itemId": 200001,
+                                    "itemName": "微辣",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 200002,
+                                    "itemName": "特辣",
+                                    "price": 2
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "002",
+                            "itemTypeName": "做法",
+                            "itemlist": [
+                                {
+                                    "itemId": 300001,
+                                    "itemName": "红烧",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 300002,
+                                    "itemName": "清蒸",
+                                    "price": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "compId": "01",
+                    "dishesType": "1089",
+                    "dishesId": 10003,
+                    "dishesTypeCode": "01",
+                    "dishesPrice": 15,
+                    "isComp": 0,
+                    "dishesName": "浓香芝士培根饭",
+                    "dishesUrl": "http://115.29.35.199:17890/material_img/images/upload/20000080/10000886.jpg",
+                    "memberPrice": 10,
+                    "dishesCode": "YR",
+                    "exportId": 1,
+                    "dishesItemTypelist": [
+                        {
+                            "itemType": "001",
+                            "itemTypeName": "口味",
+                            "itemlist": [
+                                {
+                                    "itemId": 200001,
+                                    "itemName": "微辣",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 200002,
+                                    "itemName": "特辣",
+                                    "price": 2
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "002",
+                            "itemTypeName": "做法",
+                            "itemlist": [
+                                {
+                                    "itemId": 300001,
+                                    "itemName": "红烧",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 300002,
+                                    "itemName": "清蒸",
+                                    "price": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "compId": "02",
+            "dishesType": "1091",
+            "dishesTypeName": "汤",
+            "maxSelect": 1,
+            "dishesCount": 2,
+            "dishesInfoList": [
+                {
+                    "compId": "02",
+                    "dishesType": "1091",
+                    "dishesId": 10004,
+                    "dishesTypeCode": "01",
+                    "dishesPrice": 15,
+                    "isComp": 0,
+                    "dishesName": "甜甜圈",
+                    "dishesUrl": "http://115.29.35.199:17890/material_img/images/upload/20000080/10000888.jpg",
+                    "memberPrice": 10,
+                    "dishesCode": "TTQ",
+                    "exportId": 2,
+                    "dishesItemTypelist": [
+                        {
+                            "itemType": "001",
+                            "itemTypeName": "口味",
+                            "itemlist": [
+                                {
+                                    "itemId": 200001,
+                                    "itemName": "微辣",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 200002,
+                                    "itemName": "特辣",
+                                    "price": 2
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "002",
+                            "itemTypeName": "做法",
+                            "itemlist": [
+                                {
+                                    "itemId": 300001,
+                                    "itemName": "红烧",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 300002,
+                                    "itemName": "清蒸",
+                                    "price": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "compId": "02",
+                    "dishesType": "1091",
+                    "dishesId": 10005,
+                    "dishesTypeCode": "01",
+                    "dishesPrice": 15,
+                    "isComp": 0,
+                    "dishesName": "蛋糕",
+                    "dishesUrl": "http://115.29.35.199:17890/material_img/images/upload/20000080/10000889.jpg",
+                    "memberPrice": 10,
+                    "dishesCode": "DG",
+                    "exportId": 2,
+                    "dishesItemTypelist": [
+                        {
+                            "itemType": "001",
+                            "itemTypeName": "口味",
+                            "itemlist": [
+                                {
+                                    "itemId": 200001,
+                                    "itemName": "微辣",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 200002,
+                                    "itemName": "特辣",
+                                    "price": 2
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "002",
+                            "itemTypeName": "做法",
+                            "itemlist": [
+                                {
+                                    "itemId": 300001,
+                                    "itemName": "红烧",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 300002,
+                                    "itemName": "清蒸",
+                                    "price": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "compId": "03",
+            "dishesType": "1092",
+            "dishesTypeName": "小食",
+            "dishesUrl": "http://115.29.35.199:17890/material_img/images/upload/20000080/10000890.jpg",
+            "maxSelect": 2,
+            "dishesCount": 4,
+            "dishesInfoList": [
+                {
+                    "compId": "03",
+                    "dishesType": "1062",
+                    "dishesId": 10006,
+                    "dishesTypeCode": "01",
+                    "dishesPrice": 15,
+                    "isComp": 0,
+                    "dishesName": "啤酒",
+                    "memberPrice": 10,
+                    "dishesCode": "PJ",
+                    "exportId": 3,
+                    "dishesItemTypelist": [
+                        {
+                            "itemType": "001",
+                            "itemTypeName": "口味",
+                            "itemlist": [
+                                {
+                                    "itemId": 200001,
+                                    "itemName": "微辣",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 200002,
+                                    "itemName": "特辣",
+                                    "price": 2
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "002",
+                            "itemTypeName": "做法",
+                            "itemlist": [
+                                {
+                                    "itemId": 300001,
+                                    "itemName": "红烧",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 300002,
+                                    "itemName": "清蒸",
+                                    "price": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "compId": "03",
+                    "dishesType": "1092",
+                    "dishesId": 10007,
+                    "dishesTypeCode": "01",
+                    "dishesPrice": 15,
+                    "isComp": 0,
+                    "dishesName": "可乐",
+                    "memberPrice": 10,
+                    "dishesUrl": "http://115.29.35.199:17890/material_img/images/upload/20000080/10000891.jpg",
+                    "dishesCode": "PJ",
+                    "exportId": 3,
+                    "dishesItemTypelist": [
+                        {
+                            "itemType": "001",
+                            "itemTypeName": "口味",
+                            "itemlist": [
+                                {
+                                    "itemId": 200001,
+                                    "itemName": "微辣",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 200002,
+                                    "itemName": "特辣",
+                                    "price": 2
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "002",
+                            "itemTypeName": "做法",
+                            "itemlist": [
+                                {
+                                    "itemId": 300001,
+                                    "itemName": "红烧",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 300002,
+                                    "itemName": "清蒸",
+                                    "price": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "compId": "03",
+                    "dishesType": "1092",
+                    "dishesId": 10008,
+                    "dishesTypeCode": "01",
+                    "dishesPrice": 15,
+                    "isComp": 0,
+                    "dishesName": "雪碧",
+                    "dishesUrl": "http://115.29.35.199:17890/material_img/images/upload/20000080/10000979.jpg",
+                    "memberPrice": 10,
+                    "dishesCode": "XB",
+                    "exportId": 3,
+                    "dishesItemTypelist": [
+                        {
+                            "itemType": "001",
+                            "itemTypeName": "口味",
+                            "itemlist": [
+                                {
+                                    "itemId": 200001,
+                                    "itemName": "微辣",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 200002,
+                                    "itemName": "特辣",
+                                    "price": 2
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "002",
+                            "itemTypeName": "做法",
+                            "itemlist": [
+                                {
+                                    "itemId": 300001,
+                                    "itemName": "红烧",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 300002,
+                                    "itemName": "清蒸",
+                                    "price": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "compId": "03",
+                    "dishesType": "1092",
+                    "dishesId": 10009,
+                    "dishesTypeCode": "01",
+                    "dishesPrice": 15,
+                    "isComp": 0,
+                    "dishesName": "橙汁",
+                    "dishesUrl": "http://115.29.35.199:17890/material_img/images/upload/20000080/10000975.jpg",
+                    "memberPrice": 10,
+                    "dishesCode": "CZ",
+                    "exportId": 3,
+                    "dishesItemTypelist": [
+                        {
+                            "itemType": "001",
+                            "itemTypeName": "口味",
+                            "itemlist": [
+                                {
+                                    "itemId": 200001,
+                                    "itemName": "微辣",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 200002,
+                                    "itemName": "特辣",
+                                    "price": 2
+                                }
+                            ]
+                        },
+                        {
+                            "itemType": "002",
+                            "itemTypeName": "做法",
+                            "itemlist": [
+                                {
+                                    "itemId": 300001,
+                                    "itemName": "红烧",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 300002,
+                                    "itemName": "清蒸",
+                                    "price": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

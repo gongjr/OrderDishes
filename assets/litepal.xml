@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <!-- Object  Relational Mapping -->
+    <!-- <dbname>用于设定数据库的名字 -->
+    <!-- int、short、long、float、double、boolean、String和Date -->
+
+    <dbname value="dishes" >
+    </dbname>
+    <!-- <version>用于设定数据库的版本号,每次数据库内任何表结构映射实体类有修改后版本号固定+1来更新,切记不可版本号回退，导致错乱 -->
+
+    <version value="80" >
+    </version>
+    <!-- <list>用于设定所有的映射模型 -->
+
+    <list>
+
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.DishesType" >
+        </mapping>
+
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.DishesInfo" >   
+        </mapping>
+        
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.DishesItemType" >
+        </mapping>
+
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.DishesItem" >
+        </mapping>
+
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.DishesOrder" >
+        </mapping>
+
+       
+
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.OrderGoods" >
+        </mapping>
+
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.MerchantDesk" >
+        </mapping>
+
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.MerchantDeskLocation" >
+        </mapping>
+        
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.MerchantCompDishesInfo" >
+        </mapping>
+        
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.MerchantCompDishesType" >
+        </mapping>
+        
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.DishesInfo" >
+        </mapping>
+        
+        <mapping class="com.asiainfo.orderdishes.entity.litepal.RemarkItem" >
+        </mapping>
+
+        
+    </list>
+
+
+</litepal>

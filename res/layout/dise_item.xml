@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@anim/dish_item_onclick"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/dish_item_img"
+        android:layout_width="275dip"
+        android:layout_height="175dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="10dip" />
+
+    <TextView
+        android:id="@+id/dish_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="38dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dish_item_img"
+        android:layout_marginLeft="20dip"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="蜜汁猪排饭"
+        android:textColor="@color/home_dish_item_name_tv"
+        android:textStyle="italic"
+        android:textSize="@dimen/text_size_18" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_below="@+id/dish_item_price_group"
+        android:layout_marginTop="10dip"
+        android:background="@anim/bottom_gradient_bg" />
+
+    <CheckBox
+        android:id="@+id/dish_item_checkBox"
+        android:layout_width="50dip"
+        android:layout_height="60dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/dish_item_img"
+        android:button="@anim/checkbox_selector"
+       
+        android:layout_marginTop="28dip"
+        android:layout_marginRight="16dip"/>
+
+    <LinearLayout
+        android:id="@+id/dish_item_price_group"
+        android:layout_width="200dip"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dip"
+        android:layout_below="@+id/dish_item_name"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            >
+            <TextView
+                android:id="@+id/dish_item_member_price_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:text="￥"
+                android:textColor="@color/dish_item_member_price_text"
+                android:textSize="@dimen/text_size_20"
+                android:textStyle="italic|bold"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/dish_item_member_price"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:gravity="top"
+                android:text="59"
+                android:textStyle="italic|bold"
+                android:textColor="@color/dish_item_member_price_text"
+                android:textSize="@dimen/text_size_24"
+                android:visibility="gone"/>
+            </LinearLayout>
+        <TextView
+            android:id="@+id/dish_item_member_price_title"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_marginLeft="5dip"
+            android:gravity="top"
+            android:text="会员价:"
+            android:textStyle="italic|bold"
+            android:textColor="@color/dish_item_member_price_text"
+            android:textSize="@dimen/text_size_18"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/dish_item_price_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:text="￥"
+            android:textStyle="italic|bold"
+            android:textColor="@color/dish_item_price_text"
+            android:textSize="@dimen/text_size_20"/>
+
+        <TextView
+            android:id="@+id/dish_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:gravity="top"
+            android:text="59"
+            android:textColor="@color/dish_item_price_text"
+            android:textStyle="italic|bold"
+            android:textSize="@dimen/text_size_24" />
+    </LinearLayout>
+
+</RelativeLayout>

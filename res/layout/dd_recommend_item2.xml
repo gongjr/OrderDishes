@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/dish_image"
+        android:layout_width="135dip"
+        android:layout_height="100dip"
+        android:layout_marginRight="20dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/tianxiacishen" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginRight="20dip"
+        android:text="甜虾刺身"
+        android:textSize="@dimen/text_size_16" 
+        android:gravity="center"/>
+
+</LinearLayout>

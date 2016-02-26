@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">筷享点餐</string>
+    <string name="app_name_test">筷享点餐测试</string>
+    <!-- View Tag 常量标识 -->
+    <item name="tag_first" type="id"></item>
+    <item name="tag_second" type="id"></item>
+    <item name="tag_three" type="id"></item>
+    <item name="tag_four" type="id"></item>
+    <item name="tag_five" type="id"></item>
+
+    <string name="hall_change_table_dialog_text">
+    <![CDATA[
+                         您是要更换到<font color="#d0021b"><big>%1$s号</big></font>桌吗？
+    ]]> 
+    </string>
+    <string name="make_order_success_dialog_text">
+    <![CDATA[
+       <font color="#d0021b"><big>下单成功！</big></font>
+    ]]> 
+    </string>
+    
+    <!-- Volley异常提示信息 -->
+    <string name="no_internet">请检查您的网络是否正常！</string>
+    <string name="timeout">服务器连接超时,无响应！</string>
+    <string name="unknow_error">未知异常，请稍候！</string>
+    <string name="serverproblen_error">程序异常，请稍候！</string>
+    <string name="no_server_error">服务器异常，请稍候！</string>
+    <string name="submit_dialog_title">您已完成点菜，提交菜单吗?</string>
+    
+   <string name="dishes_selected_top_title">
+    <![CDATA[
+     <font color="#ffffff">已下单&#160;&#160;&#160;(合计:&#160;&#160;%1$s个&#160;￥%2$s)</font>
+    ]]>
+    </string>
+
+</resources>

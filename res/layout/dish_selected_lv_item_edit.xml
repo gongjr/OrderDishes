@@ -1,0 +1,106 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="3dip"
+    android:paddingBottom="3dip">
+
+    <TextView
+        android:id="@+id/del"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical|left"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/deleteall" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="300dip"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@+id/del"
+        android:gravity="center_vertical|left"
+        android:layout_marginLeft="10dip"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:layout_centerVertical="true" />
+    
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="100dip"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@+id/name"
+        android:layout_marginRight="40dip"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/edit"
+        android:layout_width="120dip"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@+id/price" 
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:background="@anim/edit_border">
+        <TextView
+            android:id="@+id/add"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@anim/list_count_adds_selector"/>
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="40dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp" 
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/minus"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:focusable="false"
+            android:background="@anim/list_count_minus_selector"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="80dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical|right"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
+<LinearLayout 
+    android:id="@+id/ordergoods_edit_detail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dip"
+     android:layout_marginRight="20dip"
+    >
+    
+</LinearLayout>
+</LinearLayout>

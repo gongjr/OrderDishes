@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="match_parent"
+    android:layout_marginRight="5dip"
+    android:background="@anim/table_types_rb_selector"
+    android:button="@null"
+    android:checked="false"
+    android:gravity="center"
+    android:paddingLeft="30dip"
+    android:paddingRight="30dip"
+    android:text="金銮殿"
+    android:textColor="@color/hall_mdl_text_normal"
+    android:textSize="@dimen/text_size_22">
+
+</RadioButton>

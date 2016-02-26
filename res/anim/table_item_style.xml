@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">  
+      
+    <item>  
+        <shape android:shape="oval" >  
+            <corners android:radius="45dip" />  
+            <solid android:color="@color/table_border_color" />  
+            <size android:width="90dip" android:height="90dip" />  
+        </shape>  
+    </item>  
+      
+    <item android:bottom="1.5dip" android:right="1.5dip" android:top="1.5dip" android:left="1.5dip" >  
+        <selector>  
+            <item android:state_checked="true" >  
+                <shape android:shape="oval" >  
+                    <corners android:radius="45dip" />  
+                    <solid android:color="@color/hall_table_show_bg" />  
+                    <size android:width="90dip" android:height="90dip" />  
+                </shape>  
+            </item>  
+              
+            <item android:state_checked="false">  
+                <shape android:shape="oval" >  
+                    <corners android:radius="45dip" />  
+                    <solid android:color="@color/hall_layout_bg" />
+                    <size android:width="90dip" android:height="90dip" />  
+                </shape>  
+            </item>  
+        </selector>  
+    </item>  
+    
+    <!-- <solid android:color="#f3876f" />   -->
+      
+</layer-list>  

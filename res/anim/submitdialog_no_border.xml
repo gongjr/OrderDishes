@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape>
+
+            <stroke android:width="1dip" android:color="#f5ebeb" />
+            <!-- 背景色 -->
+            <solid android:color="@color/submitdialog_bg" />
+            <!-- 圆角边距 -->
+            <corners android:radius="30dp" />
+        </shape></item>
+    <item android:state_focused="true"><shape>
+            <stroke android:width="1dip" android:color="#f5ebeb" />
+            <!-- 背景色 -->
+            <solid android:color="@color/submitdialog_bg" />
+            <!-- 圆角边距 -->
+            <corners android:radius="30dp" />
+        </shape></item>
+    <item><shape>
+           <stroke android:width="1dip" android:color="@color/submitdialog_no_border" />
+            <!-- 背景色 -->
+            <solid android:color="@color/submitdialog_bg" />
+            <!-- 圆角边距 -->
+            <corners android:radius="30dp" />
+        </shape></item>
+
+</selector>

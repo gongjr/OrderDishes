@@ -1,0 +1,41 @@
+                {
+                    "compId": "01",
+                    "dishesType": "1060",
+                    "dishesId": 10001,
+                    "dishesTypeCode": "01",
+                    "dishesPrice": 1500,
+                    "isComp": 0,
+                    "dishesName": "牛排熟度",
+                    "dishesUrl": "http://115.29.35.199:17890/material_img/images/upload/20000080/tiaoyucishen.jpg",
+                    "memberPrice": 1000,
+                    "dishesCode": "DNR",
+                    "exportId": 1,
+                    "dishesItemTypelist": [
+                        {
+                            "itemType": "001",
+                            "itemTypeName": "口味",
+                            "itemlist": [
+                                {
+                                    "itemId": 400001,
+                                    "itemName": "三分熟",
+                                    "price": 1
+                                },
+                                {
+                                    "itemId": 400002,
+                                    "itemName": "五分熟",
+                                    "price": 5
+                                },
+                                {
+                                    "itemId": 400003,
+                                    "itemName": "七分熟",
+                                    "price": 5
+                                },
+                                {
+                                    "itemId": 400003,
+                                    "itemName": "全熟",
+                                    "price": 5
+                                }
+                            ]
+                        }
+                    ]
+                }

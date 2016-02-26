@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape>
+        
+            <stroke android:width="1dip" android:color="#f5ebeb" />
+            
+            <!-- 背景色 -->
+            <solid android:color="@color/dish_detail_bg" />
+            <!-- 圆角边距 -->
+            <corners android:radius="20dp" />
+        </shape></item>
+    <item android:state_focused="true"><shape>
+        
+            <stroke android:width="1dip" android:color="#f5ebeb" />
+            
+            <!-- 背景色 -->
+            <solid android:color="@color/dish_detail_bg" />
+            <!-- 圆角边距 -->
+            <corners android:radius="20dp" />
+        </shape></item>
+    <item><shape>
+        
+            <stroke android:width="1dip" android:color="#e1910f" />
+            
+            <!-- 背景色 -->
+            <solid android:color="@color/dish_detail_bg" />
+
+            <!-- 圆角边距 -->
+            <corners android:radius="20dp" />
+        </shape></item>
+
+</selector>

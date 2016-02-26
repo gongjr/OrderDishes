@@ -1,0 +1,278 @@
+package com.asiainfo.orderdishes.entity.litepal;
+
+import org.litepal.crud.DataSupport;
+
+import java.util.ArrayList;
+
+/**
+ * List<DishesItemType> dishesItemList
+ * 一条普通单品菜，点餐主页上面的非套餐菜品使用这个数据集来展示，
+ * 本身可以加一些套餐约束属性在套餐中复用展示
+ * 2015-5-26 14:00
+ *
+ * @author gjr
+ *         *注：5.28日，不与服务器逻辑类同步，使用本地dishesinfo合并MerchantCompDishes和MerchantDishesInfo的逻辑实现
+ */
+public class DishesInfo extends DataSupport {
+
+    private String isZdzk;
+
+    private String dishesName;
+
+    private String dishesId;
+
+    private String dishesOldPrice;
+
+    private long dishesPrice;
+
+    private String dishesUrl;
+
+    private String dishesTypeName;
+
+    private String isShow;
+
+    private String isShowName;
+
+    private long merchantId;
+
+    private String hasItems;
+
+    private String dishesTypeCode;
+
+    private String isFeature;
+
+    private String remark;
+
+    private String dishesCode;
+
+    private String isComp;
+
+    private Integer exportId;
+
+    private Long memberPrice;
+
+    private String compId;
+
+    private String dishesType;
+
+    private long dishesNum;
+
+    private MerchantCompDishesType merchantCompDishesType;
+
+    public Integer getExportId() {
+        return exportId;
+    }
+
+    public void setExportId(Integer exportId) {
+        this.exportId = exportId;
+    }
+
+    public Long getMemberPrice() {
+        return memberPrice;
+    }
+
+    public void setMemberPrice(Long memberPrice) {
+        this.memberPrice = memberPrice;
+    }
+
+    private ArrayList<DishesItemType> dishesItemTypelist = new ArrayList<DishesItemType>();
+
+    public ArrayList<DishesItemType> getDishesItemList() {
+        return dishesItemTypelist;
+    }
+
+    public void setDishesItemList(ArrayList<DishesItemType> dishesItemList) {
+        this.dishesItemTypelist = dishesItemList;
+    }
+
+    public String getDishesName() {
+        return dishesName;
+    }
+
+    public void setDishesName(String dishesName) {
+        this.dishesName = dishesName;
+    }
+
+    public String getDishesId() {
+        return dishesId;
+    }
+
+    public void setDishesId(String dishesId) {
+        this.dishesId = dishesId;
+    }
+
+    public String getDishesOldPrice() {
+        return dishesOldPrice;
+    }
+
+    public void setDishesOldPrice(String dishesOldPrice) {
+        this.dishesOldPrice = dishesOldPrice;
+    }
+
+    public long getDishesPrice() {
+        return dishesPrice;
+    }
+
+    public void setDishesPrice(long dishesPrice) {
+        this.dishesPrice = dishesPrice;
+    }
+
+    public String getDishesUrl() {
+        return dishesUrl;
+    }
+
+    public void setDishesUrl(String dishesUrl) {
+        this.dishesUrl = dishesUrl;
+    }
+
+    public String getDishesTypeName() {
+        return dishesTypeName;
+    }
+
+    public void setDishesTypeName(String dishesTypeName) {
+        this.dishesTypeName = dishesTypeName;
+    }
+
+    public String getIsShow() {
+        return isShow;
+    }
+
+    public void setIsShow(String isShow) {
+        this.isShow = isShow;
+    }
+
+    public String getIsShowName() {
+        return isShowName;
+    }
+
+    public void setIsShowName(String isShowName) {
+        this.isShowName = isShowName;
+    }
+
+    public long getMerchantId() {
+        return merchantId;
+    }
+
+    public void setMerchantId(long merchantId) {
+        this.merchantId = merchantId;
+    }
+
+    public String getHasItems() {
+        return hasItems;
+    }
+
+    public void setHasItems(String hasItems) {
+        this.hasItems = hasItems;
+    }
+
+    public String getDishesTypeCode() {
+        return dishesTypeCode;
+    }
+
+    public void setDishesTypeCode(String dishesTypeCode) {
+        this.dishesTypeCode = dishesTypeCode;
+    }
+
+    public String getIsFeature() {
+        return isFeature;
+    }
+
+    public void setIsFeature(String isFeature) {
+        this.isFeature = isFeature;
+    }
+
+    public String getRemark() {
+        return remark;
+    }
+
+    public void setRemark(String remark) {
+        this.remark = remark;
+    }
+
+    public String getDishesCode() {
+        return dishesCode;
+    }
+
+    public void setDishesCode(String dishesCode) {
+        this.dishesCode = dishesCode;
+    }
+
+    public String getIsComp() {
+        return isComp;
+    }
+
+    public void setIsComp(String isComp) {
+        this.isComp = isComp;
+    }
+
+    public String getCompId() {
+        return compId;
+    }
+
+    public void setCompId(String compId) {
+        this.compId = compId;
+    }
+
+    public String getDishesType() {
+        return dishesType;
+    }
+
+    public void setDishesType(String dishesType) {
+        this.dishesType = dishesType;
+    }
+
+    public long getDishesNum() {
+        return dishesNum;
+    }
+
+    public void setDishesNum(long dishesNum) {
+        this.dishesNum = dishesNum;
+    }
+
+    public MerchantCompDishesType getMerchantCompDishesType() {
+        return merchantCompDishesType;
+    }
+
+    public void setMerchantCompDishesType(
+            MerchantCompDishesType merchantCompDishesType) {
+        this.merchantCompDishesType = merchantCompDishesType;
+    }
+
+    public String getIsZdzk() {
+        return isZdzk;
+    }
+
+    public void setIsZdzk(String isZdzk) {
+        this.isZdzk = isZdzk;
+    }
+
+    public ArrayList<DishesItemType> getDishesItemTypelist() {
+        return dishesItemTypelist;
+    }
+
+    public void setDishesItemTypelist(ArrayList<DishesItemType> dishesItemTypelist) {
+        this.dishesItemTypelist = dishesItemTypelist;
+    }
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    private int id;
+
+    /**
+     * 查询填充对应的ArrayList<DishesItemType>
+     *
+     * @return
+     */
+    public ArrayList<DishesItemType> getItemlistDb() {
+        this.dishesItemTypelist = (ArrayList<DishesItemType>) DataSupport.where("dishesinfo_id = ?", String.valueOf(id)).find(DishesItemType.class);
+        return dishesItemTypelist;
+    }
+
+}

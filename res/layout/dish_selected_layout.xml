@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/dd_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <TextView
+            android:id="@+id/dd_deshname"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:text="桌号:"
+            android:textColor="#d0021b"
+            android:textSize="@dimen/text_size_20" />
+
+        <TextView
+            android:id="@+id/dd_diskid"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:layout_toRightOf="@+id/dd_deshname"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="#d0021b"
+            android:textSize="@dimen/text_size_20" />
+
+        <CheckBox
+            android:id="@+id/editbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:text="编辑"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_20" />
+
+        <TextView
+            android:id="@+id/dd_divline1"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/editbtn"
+            android:layout_marginBottom="0dip"
+            android:layout_marginTop="5dip"
+            android:background="#CEC8B6"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/list_group"
+                android:layout_width="match_parent"
+                android:layout_height="320dip"
+                android:layout_below="@+id/dd_divline1"
+                android:orientation="vertical">
+
+            <com.asiainfo.orderdishes.ui.widget.PinnedSectionListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="320dip"
+                android:choiceMode="singleChoice"
+                android:divider="@null"
+                android:drawSelectorOnTop="true"
+                android:focusable="false"
+                android:gravity="center"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dd_divline2"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/list_group"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="#CEC8B6"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dd_divline2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="8dip"
+                android:layout_toLeftOf="@+id/sum"
+                android:gravity="center_vertical"
+                android:text="合计：￥ "
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dip"
+                android:text="0.0"
+                android:textColor="#E1484A"
+                android:textSize="@dimen/text_size_24" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/settle_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/dish_selected_bg"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <EditText
+            android:id="@+id/requires"
+            android:layout_width="match_parent"
+            android:layout_height="75dip"
+            android:textCursorDrawable="@null"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="#FFFFFF"
+            android:gravity="left|top"
+            android:hint="有什么要备注的么(⊙_⊙)？"
+            android:padding="5dip"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16" />
+        <Button
+            android:id="@+id/settle"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_below="@+id/requires"
+            android:layout_marginBottom="0dip"
+            android:layout_marginTop="20dip"
+            android:background="#E1484A"
+            android:gravity="center"
+            android:text="下单"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
